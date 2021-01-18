@@ -1,12 +1,13 @@
 # Package
 
 description = "Jenkins Hasher producing 32 bit digests"
-version = "0.1.1"
+version = "0.1.2"
 
 author = "Jordan Hrycaj"
 license = "UNLICENCE"
 
 requires "nim >= 1.4.2"
+srcDir = "src"
 
 # Tasks
 

@@ -20,13 +20,13 @@ README.html: README.md
 
 # ----
 
-DOCS = docs/jhash/jhash.html
+DOCS = docs/src/jhash.html
 
 update: $(DOCS)
 
 PWD = `pwd`
 
-$(DOCS): jhash/jhash.nim
+$(DOCS): src/jhash.nim
 	nim doc --outdir:docs --docRoot:$(PWD) $<
 
 # ----

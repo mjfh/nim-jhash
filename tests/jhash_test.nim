@@ -10,7 +10,7 @@
 #
 
 import
- jhash/jhash, strformat
+ jhash, strformat
 
 const
   noisy {.intdefine.}: int = 0

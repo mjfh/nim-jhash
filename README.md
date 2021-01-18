@@ -12,7 +12,7 @@ and tested against this module (see __Digest::JHash(3pm)__ POSIX manual.)
 ## Example
 
        import
-         jhash/jhash
+         jhash
 
        var blurb =
          "How much wood could a woodchuck chuck. "   &
