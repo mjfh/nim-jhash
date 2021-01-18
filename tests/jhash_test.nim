@@ -10,7 +10,7 @@
 #
 
 import
- jhash/jhash
+ jhash/jhash, strformat
 
 const
   noisy {.intdefine.}: int = 0
@@ -67,7 +67,7 @@ var blurb =
 
 doAssert blurb.jHash == 0x61010c8u32
 
-echo "*** all OK"
+echo &"*** all OK"
    
 # ----------------------------------------------------------------------------
 # End
