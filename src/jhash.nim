@@ -16,7 +16,7 @@
 ## `Jenkins Hasher <//burtleburtle.net/bob/hash/doobs.html>`_ article
 ## in the *Dr. Doobs* magazine.
 ##
-## The current implementation is stolen from the Perl **Digest::JHash** xs
+## The current implementation is taken from the Perl **Digest::JHash** xs
 ## code and tested against this module (see **Digest::JHash(3pm)** POSIX
 ## manual.)
 
